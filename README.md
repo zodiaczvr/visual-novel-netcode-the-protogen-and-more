@@ -2,7 +2,12 @@ visual novel netcode the protogen & more
 
 <h3 align="center"><a href="https://discord.com/invite/qaDE3X4P7A">discord</a> | <a href="https://zodiaczvr.itch.io/visual-novel-netcode-the-protogen-and-more">Download</a></h3>
 
-info the game
+### Releases
+
+[View Releases here](https://github.com/zodiaczvr/visual-novel-netcode-the-protogen-and-more/releases/)
+[Pre-releases for testing are available here]()
+
+#### info the game
 
 Your game concept sounds incredibly rich and immersive! Exploring a vast world filled with different biomes and a cybernetically enhanced city created by Protogens offers players a wide range of environments to discover and interact with. The idea of having options with consequences adds depth to the gameplay, as players must carefully consider their choices, knowing they could impact the outcome of the story.
 
@@ -25,11 +30,8 @@ ZodiacZVR" working on a big update to change a couple things "
 
 Moona Multiverse Indie Park it starts in 1/1/1819 and it end in 12/31/1842, visual novel netcode the protogen on the timeline this takes place at 1/1/1843 and it end at 1/30/1851 and downstar of projects it start in 1852 and this continues all the way up to the current year
 
-computer specs requirements: coming soon.
+### computer specs requirements: coming soon.
 
 
 
-more information will be posted soon.
-
-discord severs:
-
+#### more information will be posted soon.
