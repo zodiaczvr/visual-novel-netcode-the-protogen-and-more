@@ -1,6 +1,6 @@
 visual novel netcode the protogen & more
 
-
+<h3 align="center"><a href="https://discord.com/invite/qaDE3X4P7A">discord</a> | <a href="https://zodiaczvr.itch.io/visual-novel-netcode-the-protogen-and-more">Download</a></h3>
 
 info the game
 
