@@ -1,0 +1,206 @@
+**index.html**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main content -->
+    <div class="content">
+        <!-- Header and navigation -->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#navigation">Navigation</a></li>
+                    <li><a href="#content">Main content</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Article sections -->
+        <section class="article">
+            <h1 id="title"></h1>
+            <p id="intro"></p>
+            <div id="body">
+                <p id="text"></p>
+            </div>
+        </section>
+
+        <!-- Footer and sidebar -->
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#navigation">Navigation</a></li>
+                    <li><a href="#content">Main content</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Related articles</h2>
+            <ul id="related-articles"></ul>
+        </div>
+    </div>
+
+    <!-- JavaScript code for dynamic content -->
+    <script src="script.js"></script>
+</body>
+</html>
+```
+**styles.css**
+```css
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0.2em;
+}
+
+/* Article section styles */
+.article {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+article p {
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+
+/* Footer and sidebar styles */
+footer {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.sidebar {
+    float: right;
+    width: 20%;
+    margin-left: 1em;
+}
+
+/* Related articles styles */
+.related-articles {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.related-article {
+    background-color: #f9f9f9;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+```
+**script.js**
+```javascript
+// Get elements by ID
+const title = document.getElementById('title');
+const intro = document.getElementById('intro');
+const bodyText = document.getElementById('text');
+
+// Function to generate article content dynamically
+function generateArticleContent() {
+    const articles = [
+        { id: 1, text: 'This is the first article.' },
+        { id: 2, text: 'This is the second article.' }
+    ];
+
+    articles.forEach((article) => {
+        title.textContent = `Title ${article.id}`;
+        intro.textContent = `Introduction to ${article.text}`;
+
+        bodyText.innerHTML = '';
+        let paragraphs = document.createElement('p');
+        paragraphs.textContent = article.text;
+        bodyText.appendChild(paragraphs);
+
+        const relatedArticlesElement = document.getElementById('related-articles');
+        if (relatedArticlesElement) {
+            relatedArticlesElement.innerHTML = '';
+            articles.forEach((otherArticle) => {
+                const relatedArticleElement = document.createElement('a');
+                relatedArticleElement.href = `#${article.id + 1}`;
+                relatedArticleElement.textContent = otherArticle.text;
+                relatedArticlesElement.appendChild(relatedArticleElement);
+            });
+        }
+    });
+}
+
+// Generate article content on page load
+generateArticleContent();
+
+// Add event listener to generate article content when user clicks on "Generate new article"
+document.getElementById('new-article').addEventListener('click', () => {
+    const articleText = prompt("Enter article text:");
+    if (articleText) {
+        const articles = [
+            { id: 1, text: 'This is the first article.' },
+            { id: 2, text: 'This is the second article.' }
+        ];
+
+        articles.forEach((article) => {
+            title.textContent = `Title ${article.id}`;
+            intro.textContent = `Introduction to ${article.text}`;
+
+            bodyText.innerHTML = '';
+            let paragraphs = document.createElement('p');
+            paragraphs.textContent = article.text;
+            bodyText.appendChild(paragraphs);
+
+            const relatedArticlesElement = document.getElementById('related-articles');
+            if (relatedArticlesElement) {
+                relatedArticlesElement.innerHTML = '';
+                articles.forEach((otherArticle) => {
+                    const relatedArticleElement = document.createElement('a');
+                    relatedArticleElement.href = `#${article.id + 1}`;
+                    relatedArticleElement.textContent = otherArticle.text;
+                    relatedArticlesElement.appendChild(relatedArticleElement);
+                });
+            }
+        });
