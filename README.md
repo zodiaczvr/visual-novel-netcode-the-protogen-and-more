@@ -25,9 +25,9 @@ It sounds like you've got a really cool concept going for your visual novel game
 Since you mentioned you have some fixing to do, are there specific elements you're looking to tweak or improve? Whether it's adjusting colors, refining details, or anything else, feel free to share, and I can offer some suggestions or feedback!
 
 
-ZodiacZVR" hi is the game developer here so you guys can go and check out my social medias from here zodiaczvr and make sure you check out this page once in awhile when it updates for new updates, and new content to the story. "
+Zwute " hi is the game developer here so you guys can go and check out my social medias from here zodiaczvr and make sure you check out this page once in awhile when it updates for new updates, and new content to the story. "
 
-ZodiacZVR" working on a big update to change a couple things "
+Zwute " working on a big update to change a couple things "
 
 Moona Multiverse Indie Park it starts in 1/1/1819 and it end in 12/31/1842, visual novel netcode the protogen on the timeline this takes place at 1/1/1843 and it end at 1/30/1851 and downstar of projects it start in 1852 and this continues all the way up to the current year
 
@@ -36,10 +36,15 @@ Moona Multiverse Indie Park it starts in 1/1/1819 and it end in 12/31/1842, visu
 computer specs requirements: coming soon.
 
 OS *: Windows 10 or later or linux or mac.
+
 Processor: 2 Core or Better
+
 Memory: 256MB RAM
+
 Graphics: coming soon
+
 DirectX: coming soon
+
 Storage: download link available space
 
 #### more information will be posted soon.
