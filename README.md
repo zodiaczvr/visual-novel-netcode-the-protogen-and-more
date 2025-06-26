@@ -33,6 +33,16 @@ Moona Multiverse Indie Park it starts in 1/1/1819 and it end in 12/31/1842, visu
 
 ### computer specs requirements: coming soon.
 
+computer specs requirements: coming soon.
 
+OS *: Windows 10 or later or linux or mac.
+Processor: 2 Core or Better
+Memory: 256MB RAM
+Graphics: coming soon
+DirectX: coming soon
+Storage: download link available space
 
 #### more information will be posted soon.
+
+Copyright (c) 2002-2020, The Proper Ditrea Studio​
+Copyright (c) 2020-2025, zwute studio 
