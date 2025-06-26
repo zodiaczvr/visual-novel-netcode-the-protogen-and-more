@@ -1,6 +1,6 @@
 visual novel netcode the protogen & more
 
-<h3 align="center"><a href="https://discord.gg/W2eJXyvVhT">discord</a> | <a href="https://zwute-studio.itch.io/visual-novel-netcode-the-protogen-and-more">Download now in itch.io</a></h3> | <a href="https://gamejolt.com/games/visual-novel-netcode-the-protogen-and-more/891872">Download now in gamejolt</a></h3> | <a href="https://9d458e2d-2fa6-46c9-acfc-d25a22099350-00-3ie2zcpgqok40.spock.replit.dev/download">website</a></h3>
+<h3 align="center"><a href="https://discord.gg/W2eJXyvVhT">discord</a> | <a href="https://zwute-studio.itch.io/visual-novel-netcode-the-protogen-and-more">Download now in itch.io</a> | <a href="https://gamejolt.com/games/visual-novel-netcode-the-protogen-and-more/891872">Download now in gamejolt</a> | <a href="https://9d458e2d-2fa6-46c9-acfc-d25a22099350-00-3ie2zcpgqok40.spock.replit.dev/download">website</a></h3>
 
 ### Releases
 
